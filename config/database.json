@@ -1,0 +1,21 @@
+{ "development":
+  { "driver":   "mongoose"
+  , "host":     "localhost"
+  , "database": "boozr-dev"
+  }
+, "test":
+  { "driver":   "mongoose"
+  , "host":     "localhost"
+  , "database": "boozr-test"
+  }
+, "staging":
+  { "driver":   "mongoose"
+  , "host":     "localhost"
+  , "database": "boozr-staging"
+  }
+, "production":
+  { "driver":   "mongoose"
+  , "host":     "localhost"
+  , "database": "boozr-production"
+  }
+}
